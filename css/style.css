@@ -1,0 +1,83 @@
+QPushButton {
+        color: grey;
+        border-image: url(/home/kamlie/code/button.png) 3 10 3 10;
+        border-top: 3px transparent;
+        border-bottom: 3px transparent;
+        border-right: 10px transparent;
+        border-left: 10px transparent;
+    }
+
+    QTableView {
+        selection-background-color:#9E9E9E ;/*Цвет_ячейки_при_выборе_элемента*/
+        background-color: white;/*цвет_фона*/
+        gridline-color: b#E9E9E9;/*цвет_сетки*/
+    }
+
+    QTableView QTableCornerButton::section {
+        background: #B5B5B5;
+        border: 2px outset #828282 ;
+    }
+
+    QPushButton {
+        float right;
+        margin-right: 3%;
+        margin-top: 5px;
+        border-radius: 5px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #B3B3B3;
+        padding: 5px 9px; 
+        font-size: 13px;
+        background-color: rgb(202, 202, 202);
+        border-bottom: 4px solid rgba(222,222,222,1);
+        color: white;
+        font-family: 'Roboto Slab', serif;
+    }
+    
+    QPushButton:pressed {
+        float right;
+        margin-right: 3%;
+        margin-top: 5px;
+        border-radius: 5px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #B3B3B3;
+        padding: 5px 9px; 
+        font-size: 11px;
+        background-color: rgb(222, 222, 222);
+        border-bottom: 4px solid rgba(222,222,222,1);
+        color: white;
+        font-family: 'Roboto Slab', serif;
+    }
+    
+    QPushButton:flat {
+        border: none; /* no border for a flat push button */
+    }
+    
+    QPushButton:default {
+        float right;
+        margin-right: 3%;
+        margin-top: 5px;
+        border-radius: 5px;
+        padding: 5px 9px; 
+        font-size: 1.2em;
+        background-color: rgb(202, 202, 202);
+        border-bottom: 4px solid rgba(222,222,222,1);
+        color: red;
+        font-family: 'Roboto Slab', serif;
+    }
+    QPushButton:hover {
+        float right;
+        margin-right: 3%;
+        margin-top: 5px;
+        border-radius: 5px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #B3B3B3;
+        padding: 5px 9px; 
+        font-size: 1.2em;
+        background-color: rgb(222, 222, 222);
+        border-bottom: 4px solid rgba(222,222,222,1);
+        color: white;
+        font-family: 'Roboto Slab', serif;
+    }
